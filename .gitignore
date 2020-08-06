@@ -1,0 +1,8 @@
+**/node_modules
+*-speed-measure.json
+
+.idea
+.vscode
+.DS_Store
+
+yarn-error.log
