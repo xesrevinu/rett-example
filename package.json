@@ -1,14 +1,15 @@
 {
-  "name": "root",
+  "name": "rett-example-project",
   "private": true,
   "workspaces": [
-    "common-services",
-    "main-service",
-    "service1",
-    "service2"
+    "bootstrap-service",
+    "graph-service",
+    "bi-service"
   ],
-  "dependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
-  }
+  "scripts": {
+    "start": "rett dev --watch=false --port=4000",
+    "build-test": "rett build --state=test",
+    "build": "rett build --stage=production"
+  },
+  "dependencies": {}
 }

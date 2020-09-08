@@ -1,8 +1,7 @@
 {
-  "name": "service2",
-  "version": "1.0.0",
+  "name": "bi-service",
   "main": "index.js",
-  "license": "MIT",
+  "version": "1.0.0",
   "dependencies": {
     "rxjs": "^6.6.0"
   }

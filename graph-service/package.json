@@ -1,0 +1,10 @@
+{
+  "name": "graph-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^17.0.0-rc.0",
+    "react-dom": "^17.0.0-rc.0",
+    "react-router-dom": "^5.2.0"
+  }
+}

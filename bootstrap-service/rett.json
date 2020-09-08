@@ -1,0 +1,14 @@
+{
+  "exposes": {
+    "./bootstrap": "./bootstrap",
+    "./routes": "./routes.jsx"
+  },
+  "env": {
+    "local": {
+      "browserslist": ["last 2 Chrome versions"]
+    },
+    "production": {
+      "devtool": false
+    }
+  }
+}

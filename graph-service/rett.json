@@ -1,0 +1,6 @@
+{
+  "exposes": {
+    "./bootstrap": "./bootstrap",
+    "./routes": "./routes"
+  }
+}

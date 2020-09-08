@@ -1,0 +1,20 @@
+.container {
+  width: 500px;
+}
+.panel {
+  border: 1px solid blue;
+  margin: 5px;
+  // padding: 5px;
+  .title {
+    // background-color: red;
+    padding: 3px;
+
+    .block {
+      padding: 0 3px;
+    }
+  }
+
+  .content {
+    padding: 5px;
+  }
+}
